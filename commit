@@ -1,0 +1,29 @@
+cd /path/to/project
+echo "test content for git tutorial" >> CommitTest.txt
+git add CommitTest.txt
+git commit -m "added CommitTest.txt to the repo"
+
+
+
+
+
+git remote add <remote_name> <remote_repo_url>
+
+
+
+
+git push -u <remote_name> <local_branch_name>
+
+
+
+git config --global user.name <name>
+
+
+
+git config --local user.email <email>
+
+
+
+
+
+[user] name = John Smith email = john@example.com [alias] st = status co = checkout br = branch up = rebase ci = commit [core] editor = vim
